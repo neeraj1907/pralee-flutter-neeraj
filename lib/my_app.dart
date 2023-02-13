@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 // ignore: use_key_in_widget_constructors
 class MyApp extends StatelessWidget {
   @override
@@ -146,12 +145,14 @@ class MyApp extends StatelessWidget {
               ),
               height: 400,
               width: 400,
-              color: Colors.black,
+              color: Color.fromARGB(255, 33, 38, 38),
               // decoration: BoxDecoration(border: Border.all(color: Colors.blue)),
             ),
           )),
-          floatingActionButton:
-              FloatingActionButton(onPressed: () {}, child: Icon(Icons.add)),
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {},
+            child: Icon(Icons.add),
+          ),
         ));
   }
 }
